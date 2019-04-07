@@ -1,8 +1,8 @@
 console.log("exercise1.js start");
 // INSTRUCTIONS
 // Below is a customersObj object that contains balance as an integer.
-// Write a function named displayBalance that returns balance in this
-// format $1234.56 when you pass the Customer ID as an argument.
+// Write a function named displayBalance that accepts customerID as an
+// argument and returns balance in this format $1234.56
 
 var customersObj = {
     23567: {

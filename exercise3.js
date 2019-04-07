@@ -14,7 +14,7 @@ console.log("exercise3.js start");
 
 // Step 3
 // Write a function named transaction that accepts
-// an amount and customerID as parameters and alters
+// a customerID and amount as parameters and alters
 // that customer's balance by the amount passed and outputs
 // the new balance in this format.
 // Title First Last balance is now $1234.56
