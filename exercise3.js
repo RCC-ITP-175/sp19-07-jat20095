@@ -26,7 +26,9 @@ var customersObj = {
             'last': 'Kurosaki'
         }, 
         'customerID': 23567,
-        'balance': 153677345
+        'balance': 153677345,
+        'title': 'Substitute'
+      
     },
     1234: {
         'name': {
@@ -34,7 +36,8 @@ var customersObj = {
             'last': 'Ichimaru'
         }, 
         'customerID': 1234,
-        'balance': 1235412356
+        'balance': 1235412356,
+        'title': 'Captain'
     },
     1531: {
         'name': {
@@ -42,7 +45,8 @@ var customersObj = {
             'last': 'Kyoraku'
         }, 
         'customerID': 1531,
-        'balance': 65432467
+        'balance': 65432467,
+        'title' : 'Captain'
     },
     543: {
         'name': {
@@ -50,40 +54,29 @@ var customersObj = {
             'last': 'Urahara'
         }, 
         'customerID': 543,
-        'balance': 63463723562
+        'balance': 63463723562,
+        'title': 'Shopkeeper'
     },
     667: {
         'name': {
-            'first': 'Ulquiorra' 
+            'first': 'Ulquiorra',
+            'last': 'Cifer'
         }, 
         'customerID': 667,
-        'balance': 4562647745
+        'balance': 4562647745,
+        'title' : 'Espada 4'
     }
 };
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+function transaction(customerID, amount){
+  var first = customerID.name.first;
+  var last = customerID.name.last;
+  var balance = amount + customerID.balance;
+  var title = customerID.title;
+  return title + " " + first +" "+last+ " balance is now $"+ "balance"; 
+};
 
 
 
