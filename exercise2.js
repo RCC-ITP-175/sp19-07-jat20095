@@ -65,9 +65,9 @@ function getCustomer(customerID){
 // INSTRUCTOR FEEDBACK
 ///////////////////////
 // Lines 56-61 work but aren't very flexible if the object had many records with no last name.
-// You get full credit for your solution, but how would you check for any record with no last
+// You get credit for your solution, but how would you check for any record with no last
 // name, not just if "Ulquiorra" were the first name?
-
+// -2pts for not accessing customersObj
 
 
 
