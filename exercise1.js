@@ -40,8 +40,16 @@ var customersObj = {
 };
 
 function displayBalance(customerID){
-  return ("$" + (customerID.balance).toFixed(2));
+  return ("$" + customersObj[customerID].toFixed(2));
 };
+///////////////////////
+// INSTRUCTOR FEEDBACK
+///////////////////////
+// I changed line 43 to pull in the customerID using bracket notation.
+// The toFixed method is changing the balance integer into a float, 
+// but it is not correctly assigning the value. For example,
+// Ichigo's balance is 153677345 and we want it displayed as
+// 1536773.45 but toFixed is displaying it as 153677345.00
 
 
 
