@@ -50,26 +50,16 @@ var customersObj = {
 };
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+function getCustomer(customerID){
+  var first = customerID.name.first;
+  
+  if(first != "Ulquiorra"){
+      var last = customerID.name.last;
+      return first + " " + last;
+  }else{
+   return first; 
+  }
+};
 
 
 

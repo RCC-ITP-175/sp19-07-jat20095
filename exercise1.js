@@ -39,30 +39,9 @@ var customersObj = {
     }
 };
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+function displayBalance(customerID){
+  return ("$" + (customerID.balance).toFixed(2));
+};
 
 
 
