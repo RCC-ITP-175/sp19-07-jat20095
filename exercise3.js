@@ -77,7 +77,13 @@ function transaction(customerID, amount){
   var title = customerID.title;
   return title + " " + first +" "+last+ " balance is now $"+ "balance"; 
 };
+///////////////////////
+// INSTRUCTOR FEEDBACK
+///////////////////////
+// -2pts for not accessing customersObj
 
+// -2pt for improper display on line 78
+// currently shows Substitute Ichigo Kurosaki balance is now $balance
 
 
 // VERIFICATION
